@@ -1,0 +1,40 @@
+.dksTree .list-group-item {
+	cursor: pointer;
+}
+
+.dksTree span.indent {
+	margin-left: .10rem;
+	margin-right: .10rem;
+}
+
+.dksTree span.icon {
+	width: .12rem;
+	margin-right: .05rem;
+}
+
+
+.dksTree img.icon {
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: .12rem;
+	height: -webkit-fit-content;
+	height: -moz-fit-content;
+	height: fit-content;
+	margin-right: .05rem;
+}
+
+.dksTree .node-disabled {
+	color: silver;
+	cursor: not-allowed;
+}
+
+
+.list-group-item > .dks-expand-icon ,.dks-collapse-icon{
+  float: right;
+}
+.list-group-item > .dks-expand-icon + .dks-expand-icon {
+  margin-right: .05rem;
+}
+.list-group-item > .dks-collapse-icon + .dks-collapse-icon {
+  margin-right: .05rem;
+}
